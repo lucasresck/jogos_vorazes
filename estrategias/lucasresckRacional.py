@@ -19,7 +19,7 @@ class MeuJogador(Jogador):
             #return ["d"]
         #if len(reputacoes_dos_jogadores) == 2:
         #    return ["d","d"]
-        elif len(reputacoes_dos_jogadores) > 5:
+        elif len(reputacoes_dos_jogadores) > 10:
             sequencia = list(range(len(reputacoes_dos_jogadores)))
             reputacao_sequencia = list(zip(reputacoes_dos_jogadores, sequencia))
             reputacao_sequencia_ordenada = sorted(reputacao_sequencia, key = lambda elemento: elemento[0], reverse = 1)
